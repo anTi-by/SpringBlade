@@ -11,6 +11,7 @@
 		<property name="realm" ref="shiroDbRealm" />
 		<!-- 将缓存管理器，交给安全管理器 -->
 		<property name="cacheManager" ref="shiroEhcacheManager" />
+
 		<!-- 配置session管理器 -->
 		<!-- <property name="sessionManager" ref="sessionManager" /> -->
 	</bean>
